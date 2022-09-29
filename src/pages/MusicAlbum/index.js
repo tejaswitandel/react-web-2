@@ -21,13 +21,13 @@ import "react-tabs/style/react-tabs.css";
 const MusicAlbumPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate1() {
+  function handleNavigate2() {
     navigate("/addalbum");
   }
-  function handleNavigate2() {
+  function handleNavigate3() {
     navigate("/dashboard");
   }
-  function handleNavigate3() {
+  function handleNavigate4() {
     navigate("/music");
   }
 
@@ -47,7 +47,7 @@ const MusicAlbumPage = () => {
                 />
                 <Row
                   className="common-pointer items-center lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] 3xl:mt-[111px] lg:mt-[72px] xl:mt-[82px] 2xl:mt-[93px] pr-[4px] rounded-radius6 w-[42%]"
-                  onClick={handleNavigate2}
+                  onClick={handleNavigate3}
                 >
                   <Img
                     src="images/img_home.svg"
@@ -60,7 +60,7 @@ const MusicAlbumPage = () => {
                 </Row>
                 <Row
                   className="common-pointer items-center lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] lg:mt-[35px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] lg:pr-[3px] xl:pr-[4px] 2xl:pr-[5px] 3xl:pr-[6px] rounded-radius6 w-[42%]"
-                  onClick={handleNavigate3}
+                  onClick={handleNavigate4}
                 >
                   <Img
                     src="images/img_music_1.svg"
@@ -181,7 +181,7 @@ const MusicAlbumPage = () => {
             </header>
             <Row
               className="common-pointer bg-teal_A400 items-center lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] p-[4px] rounded-radius4 w-[12%]"
-              onClick={handleNavigate1}
+              onClick={handleNavigate2}
             >
               <Stack className="bg-white_A700 lg:h-[17px] xl:h-[19px] 2xl:h-[22px] 3xl:h-[26px] lg:ml-[21px] xl:ml-[24px] 2xl:ml-[28px] 3xl:ml-[33px] mt-[1px] px-[4px] rounded-radius50 lg:w-[16px] xl:w-[18px] 2xl:w-[21px] 3xl:w-[25px]">
                 <Img

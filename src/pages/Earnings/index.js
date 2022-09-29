@@ -7,9 +7,6 @@ import { CloseSVG } from "../../assets/images/index.js";
 const EarningsPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate11() {
-    navigate("/withdraw");
-  }
   function handleNavigate12() {
     navigate("/withdraw");
   }
@@ -17,6 +14,9 @@ const EarningsPage = () => {
     navigate("/withdraw");
   }
   function handleNavigate14() {
+    navigate("/withdraw");
+  }
+  function handleNavigate15() {
     navigate("/music");
   }
 
@@ -46,7 +46,7 @@ const EarningsPage = () => {
                 </Row>
                 <Row
                   className="common-pointer items-center lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] lg:mt-[35px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] lg:pr-[3px] xl:pr-[4px] 2xl:pr-[5px] 3xl:pr-[6px] rounded-radius6 w-[42%]"
-                  onClick={handleNavigate14}
+                  onClick={handleNavigate15}
                 >
                   <Img
                     src="images/img_music_4.svg"
@@ -222,7 +222,7 @@ const EarningsPage = () => {
                 >
                   <Column
                     className="common-pointer bg-white_A700 items-center lg:p-[12px] xl:p-[14px] 2xl:p-[16px] 3xl:p-[19px] rounded-radius22 shadow-bs w-[100%]"
-                    onClick={handleNavigate13}
+                    onClick={handleNavigate14}
                   >
                     <Button
                       className="flex lg:h-[34px] xl:h-[39px] 2xl:h-[44px] 3xl:h-[52px] items-center justify-center rounded-radius50 lg:w-[33px] xl:w-[38px] 2xl:w-[43px] 3xl:w-[51px]"
@@ -242,7 +242,7 @@ const EarningsPage = () => {
                   </Column>
                   <Column
                     className="common-pointer bg-white_A700 items-center lg:p-[12px] xl:p-[14px] 2xl:p-[16px] 3xl:p-[19px] rounded-radius22 shadow-bs w-[100%]"
-                    onClick={handleNavigate12}
+                    onClick={handleNavigate13}
                   >
                     <Button
                       className="flex lg:h-[34px] xl:h-[39px] 2xl:h-[44px] 3xl:h-[52px] items-center justify-center rounded-radius50 lg:w-[33px] xl:w-[38px] 2xl:w-[43px] 3xl:w-[51px]"
@@ -262,7 +262,7 @@ const EarningsPage = () => {
                   </Column>
                   <Column
                     className="common-pointer bg-white_A700 items-center lg:p-[12px] xl:p-[14px] 2xl:p-[16px] 3xl:p-[19px] rounded-radius22 shadow-bs w-[100%]"
-                    onClick={handleNavigate11}
+                    onClick={handleNavigate12}
                   >
                     <Button
                       className="flex lg:h-[34px] xl:h-[39px] 2xl:h-[44px] 3xl:h-[52px] items-center justify-center rounded-radius50 lg:w-[33px] xl:w-[38px] 2xl:w-[43px] 3xl:w-[51px]"

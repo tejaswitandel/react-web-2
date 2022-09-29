@@ -16,7 +16,7 @@ import {
 const AddAlbumModal = (props) => {
   const navigate = useNavigate();
 
-  function handleNavigate4() {
+  function handleNavigate5() {
     navigate("/addsongstoalbum");
   }
 
@@ -101,7 +101,7 @@ const AddAlbumModal = (props) => {
               </Button>
               <Button
                 className="common-pointer font-semibold lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px] text-center w-[23%]"
-                onClick={handleNavigate4}
+                onClick={handleNavigate5}
                 shape="RoundedBorder5"
                 variant="FillTealA400"
               >

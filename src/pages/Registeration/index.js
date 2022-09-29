@@ -16,7 +16,10 @@ import {
 const RegisterationPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate6() {
+  function handleNavigate1() {
+    navigate("/onboarding");
+  }
+  function handleNavigate7() {
     navigate("/onboarding");
   }
 
@@ -33,7 +36,10 @@ const RegisterationPage = () => {
               className="lg:h-[382px] xl:h-[436px] 2xl:h-[491px] 3xl:h-[589px] w-[100%]"
               alt="flare"
             />
-            <Text className="font-semibold lg:leading-[42px] xl:leading-[48px] 2xl:leading-[54px] 3xl:leading-[64px] lg:mt-[171px] xl:mt-[196px] 2xl:mt-[221px] 3xl:mt-[265px] lg:text-[37px] xl:text-[42px] 2xl:text-[48px] 3xl:text-[57px] text-center text-white_A700 w-[42%]">
+            <Text
+              className="common-pointer font-semibold lg:leading-[42px] xl:leading-[48px] 2xl:leading-[54px] 3xl:leading-[64px] lg:mt-[171px] xl:mt-[196px] 2xl:mt-[221px] 3xl:mt-[265px] lg:text-[37px] xl:text-[42px] 2xl:text-[48px] 3xl:text-[57px] text-center text-white_A700 w-[42%]"
+              onClick={handleNavigate1}
+            >
               Your Content
               <br />
               Market Place
@@ -123,7 +129,7 @@ const RegisterationPage = () => {
           ></CheckBox>
           <Button
             className="common-pointer font-semibold lg:ml-[17px] xl:ml-[19px] 2xl:ml-[22px] 3xl:ml-[26px] lg:mt-[39px] xl:mt-[45px] 2xl:mt-[51px] 3xl:mt-[61px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[36%]"
-            onClick={handleNavigate6}
+            onClick={handleNavigate7}
             shape="RoundedBorder5"
             size="lg"
             variant="FillTealA400"

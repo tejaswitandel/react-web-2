@@ -17,10 +17,10 @@ import {
 const LoginPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate8() {
+  function handleNavigate9() {
     navigate("/");
   }
-  function handleNavigate9() {
+  function handleNavigate10() {
     navigate("/dashboard");
   }
 
@@ -111,7 +111,7 @@ const LoginPage = () => {
           ></CheckBox>
           <Button
             className="common-pointer font-semibold lg:ml-[4px] xl:ml-[5px] 2xl:ml-[6px] 3xl:ml-[7px] lg:mt-[31px] xl:mt-[36px] 2xl:mt-[41px] 3xl:mt-[49px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[38%]"
-            onClick={handleNavigate9}
+            onClick={handleNavigate10}
             shape="RoundedBorder5"
             size="lg"
             variant="FillTealA400"
@@ -120,7 +120,7 @@ const LoginPage = () => {
           </Button>
           <Text
             className="common-pointer font-medium lg:mb-[154px] xl:mb-[177px] 2xl:mb-[199px] 3xl:mb-[238px] lg:ml-[5px] xl:ml-[6px] 2xl:ml-[7px] 3xl:ml-[8px] lg:mt-[46px] xl:mt-[53px] 2xl:mt-[60px] 3xl:mt-[72px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-teal_A400 w-[auto]"
-            onClick={handleNavigate8}
+            onClick={handleNavigate9}
           >
             <span className="text-black_900 font-poppins">
               Don’t have an account?{" "}

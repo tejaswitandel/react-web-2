@@ -20,7 +20,7 @@ import "react-tabs/style/react-tabs.css";
 const MusicPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate15() {
+  function handleNavigate16() {
     navigate("/addsong");
   }
 
@@ -168,7 +168,7 @@ const MusicPage = () => {
             </header>
             <Button
               className="2xl:mt-[7px] 3xl:mt-[8px] flex items-center justify-center lg:mt-[5px] ml-[1px] text-center w-[12%] xl:mt-[6px]"
-              onClick={handleNavigate15}
+              onClick={handleNavigate16}
               leftIcon={
                 <Img
                   src="images/img_plus_12X12.svg"

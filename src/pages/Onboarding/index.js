@@ -17,7 +17,7 @@ import {
 const OnboardingPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate7() {
+  function handleNavigate8() {
     navigate("/login");
   }
 
@@ -134,7 +134,7 @@ const OnboardingPage = () => {
           </Grid>
           <Button
             className="common-pointer font-semibold lg:mt-[42px] xl:mt-[48px] 2xl:mt-[54px] 3xl:mt-[64px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[46%]"
-            onClick={handleNavigate7}
+            onClick={handleNavigate8}
             shape="RoundedBorder5"
             size="lg"
             variant="FillTealA400"

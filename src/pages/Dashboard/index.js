@@ -7,10 +7,10 @@ import { CloseSVG } from "../../assets/images/index.js";
 const DashboardPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate10() {
+  function handleNavigate11() {
     navigate("/music");
   }
-  function handleNavigate16() {
+  function handleNavigate17() {
     navigate("/earnings");
   }
 
@@ -40,7 +40,7 @@ const DashboardPage = () => {
                 </Row>
                 <Row
                   className="common-pointer items-center lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] lg:mt-[35px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] lg:pr-[3px] xl:pr-[4px] 2xl:pr-[5px] 3xl:pr-[6px] rounded-radius6 w-[42%]"
-                  onClick={handleNavigate10}
+                  onClick={handleNavigate11}
                 >
                   <Img
                     src="images/img_music_20X20.svg"
@@ -202,7 +202,7 @@ const DashboardPage = () => {
                     </Row>
                     <Button
                       className="common-pointer font-bold lg:ml-[146px] xl:ml-[167px] 2xl:ml-[188px] 3xl:ml-[225px] lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] lg:text-[10px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] text-center w-[39%]"
-                      onClick={handleNavigate16}
+                      onClick={handleNavigate17}
                       shape="RoundedBorder8"
                       size="md"
                       variant="OutlineWhiteA700"

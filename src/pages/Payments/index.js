@@ -17,7 +17,7 @@ import { CloseSVG } from "../../assets/images/index.js";
 const PaymentsPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate5() {
+  function handleNavigate6() {
     navigate("/music");
   }
 
@@ -47,7 +47,7 @@ const PaymentsPage = () => {
                 </Row>
                 <Row
                   className="common-pointer items-center lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] lg:mt-[35px] xl:mt-[40px] 2xl:mt-[45px] 3xl:mt-[54px] lg:pr-[3px] xl:pr-[4px] 2xl:pr-[5px] 3xl:pr-[6px] rounded-radius6 w-[42%]"
-                  onClick={handleNavigate5}
+                  onClick={handleNavigate6}
                 >
                   <Img
                     src="images/img_music_4.svg"
